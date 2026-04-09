@@ -1,0 +1,111 @@
+P{
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    font-weight: bold;
+    color: darkblue;
+    font-size: 25px;
+}
+
+#heading {
+    background-color: #01abc2;
+}
+
+#heading img {
+    margin-top: 60px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#heading h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#headline p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(85, 119, 202);
+    text-align: center;
+}
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+    color: #0f022a;
+}
+
+#about {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+#about h1 {
+    color: #0f022a;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#about p {
+    color: #0f022a;
+    font-size: 25px;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+#projects {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#projects h1 {
+    background-color: rgb(85, 119, 202);
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#projects ol {
+    list-style: decimal;
+}
+
+#project ol li {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#footer{
+    background-color: rgb(150, 174, 226);
+    font-size: 15px;
+    color: #0f022a;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    height: 300px;
+}
